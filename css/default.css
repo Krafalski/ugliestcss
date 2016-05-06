@@ -1,0 +1,9 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #F1F1F1;
+}
+
+#container {
+  max-width:90%;
+  margin:auto;
+}
