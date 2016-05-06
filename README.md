@@ -10,5 +10,7 @@ Getting started with github/this project:
 Once you have your own copy, the index.html has more instructions on how to make your CSS file and link it in the project.
 For a sneakpeak [go here.](https://github.com/Krafalski/ugliestcss/blob/master/index.html)
 
+This project is brand new! I am looking for all kinds of contributions beyond css! Please feel free to create a github issue, work on a github issue, contribute to the readme and index.html, offer suggestions on how to make this project even better!
+
 
 
