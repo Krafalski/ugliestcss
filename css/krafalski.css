@@ -2,10 +2,33 @@ body {
   background-color: dodgerblue;
 }
 
-h2 {
+h1 {
   color: blanchedalmond;
+  border: 4px solid gold;
+  padding: 2px;
+}
+h3 {
+  background-color: yellow;
+}
+
+h4 {
+  background-color: green;
 }
 
 a {
   color: pink;
+}
+
+ul {
+  background-color: orange;
+}
+
+ul ol {
+  background-color: red;
+  color:black;
+}
+
+ol ul {
+  background-color: purple;
+  color: white;
 }

@@ -3,47 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>Ugliest CSS</title>
-    <link rel="stylesheet" type="text/css" href="css/krafalski.css">
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div id="container">
-      <h2>Welcome to Ugliest CSS!</h2>
-      <h3>A way to learn to collaborate on github and show off your skills for some seriously unappealing css!</h3>
+      <h1>Welcome to Ugliest CSS!</h1>
+      <h3>A way to learn to collaborate on github and show off your skills for some seriously unappealing CSS!</h3>
       <h4>Have you wanted to learn to use github, but didn't have a simple project to work on?</h4>
       <h4>Have you wanted to try to collaborate with someone but didn't know where to find a project that you felt comfortable working on because you are new to coding?</h4>
       <h4>Well, look no futher! Ugliest CSS is here to help!</h4>
       <h3> Instructions:</h3>
-      <h3><strong>IMPORTANT! I am still working out how to best switch the CSS out, and just keep one main index.html. I have a lead using jQUERY, however if you have any ideas or want to contribute on how to best organize this part of the project(or any other part, please let me know!)</strong></h3>
       <ol>
-        <li>Go to <a href="https://github.com/Krafalski/ugliestcss">Ugliest CSS github repo</a> (add more detailed instructions here)</li>
-        <li>Only the CSS will be ugly! Only submit code that is valid and properly styled. The following styleguides will be enforced!
+        <li>Go to <a href="https://github.com/Krafalski/ugliestcss">Ugliest CSS github repo</a> (See the readme that is posted there for further guidance).</li>
+        <li>Only the CSS will be ugly! Only submit code that is valid and properly styled. The following styleguides will be enforced:
           <ul>
             <li>CSS styleguide will be based on <a href="https://github.com/airbnb/css">AirBnB's style guide. </a></li>
             <li>  HTML style will be based on <a href="https://contribute.jquery.org/style-guide/html/"> jQuery documentation styleguide. </a></li>
-            <li>Lastly, please use good grammar and focus on writing for clarity and simplicity for the README and this page.</li>
+            <li>Lastly, be sure to use good grammar and focus on writing for clarity and simplicity for the README and this page.</li>
           </ul>
           <li> How to edit/contribute: </li>
-          <ul>
-              <li>Feel free to update the README with the steps you took and any helpful links</li>
-              <ul>
-              <li>If you have not used Markdown before here is a helpful guide:  <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a></li>
-            </ul>
-            <li>Update the instructions on this page, include whatever html that is appropriate</li>
-          </ul>
-        </ul>
           <ul>
             <li>Make your own css!</li>
             <ol>
               <li>In the CSS folder, name your file [your_github_username].css</li>
-              <li><em> *** Change the href url on line 6 to be your own css file.*** NOTE: The way this will be done will need to be updated, but for now, let's try this</em></li>
+              <li>Add a link below:
+                <ol>
+                  <li>Copy one of the links, include the li tags too. </li>
+                  <li>Paste the line of code where your github username would go alphabetically</li>
+                  <li> Change the text in the single quotes to the name of your css file. onclick="changeCSS('default.css', 0);" - in this example change 'default.css' to 'github_username.css'</li>
+                  <li>On the same line, change the link name to your github username, in this example change the word Default.</li>
+                </ol>
               <li>Create your masterpiece!</li>
+              <li><strong>NOTE: there is a bug that needs to be worked out: currently, only the default css will update on refresh. While you are working, you may need to change line 6 in index.html from default.css to your file name. Please be sure to change it back to default before subitting a pull request.</strong></li>
+              <li>Commit often!</li>
               <li>Always be sure to include a commit message every time you commit!</li>
-              <li>When you are ready, make a pull request</li>
-              <li>Feel free to update your CSS any time. Also, consider collaborating with someone else; the possibilities are endless!</li>
+              <li>When you are ready, make a pull request.</li>
+              <li>You can update your CSS at any time. Also, consider collaborating with someone else; the possibilities are endless!</li>
             </ol>
-            <li> Go to <a href="https://github.com/Krafalski/ugliestcss/issues">The github issues and submit issues, as needed.</a> You can request features, point out bugs, or bring up anything else about the project there!</li>
+            <li> Other ways to contribute: </li>
+            <ul>
+                <li>Update the README with the steps you took and include any helpful links.</li>
+                <ul>
+                <li>If you have not used Markdown before here is a helpful guide:  <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a></li>
+              </ul>
+              <li>Update the instructions on this page and include whatever html that is appropriate.</li>
+              <li> Go to <a href="https://github.com/Krafalski/ugliestcss/issues">The github issues and submit issues, as needed.</a> You can request features, point out bugs, or bring up anything else about the project there!</li>
+            </ul>
+          </ul>
         </ul>
     </div>
-
+    <div id="all-the-css">
+      <h4>  Add your CSS here! </h4>
+        <ul>
+          <!-- copy the whole line(include from <li> to </li>) then paste where your github username would go alphabetically -->
+          <li><a href='#' onclick="changeCSS('default.css', 0);">Default</a></li>
+          <li><a href='#' onclick="changeCSS('krafalski.css', 0);">krafalski</a></li>
+        </ul>
+    </div>
+    <script src="js/app.js"></script>
   </body>
 </html>

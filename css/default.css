@@ -1,9 +1,45 @@
 body {
   font-family: 'Roboto Slab', serif;
   background-color: #F1F1F1;
+  font-weight:lighter;
 }
 
 #container {
-  max-width:90%;
-  margin:auto;
+  max-width: 90%;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  color: #560027;
+}
+
+a {
+  text-decoration: none;
+  color: #6b036c;
+}
+
+a:hover {
+  color: #B10051;
+}
+
+#all-the-css ul{
+  list-style: none;
+  color: #ff0074;
+  font-weight:normal;
+}
+
+h3 {
+  font-weight:normal;
+}
+
+h4 {
+  font-weight:normal;
+}
+
+ul {
+  list-style: circle;
+}
+strong {
+  font-weight: normal;
 }
