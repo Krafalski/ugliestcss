@@ -1,0 +1,36 @@
+/* Pink background color to whole page */
+body {
+  background-color: #ff33cc;
+}
+
+/* Container around the content */
+#container {
+  margin: 50px;
+  border: 10px;
+  border-style: ridge;
+  border-color: #00ff00;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 4em;
+  background-color: #669999;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p,
+li {
+  font-family: "Impact", Charcoal, sans-serif;
+}
+
+a {
+  color: #00ffff;
+}
