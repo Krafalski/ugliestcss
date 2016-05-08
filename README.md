@@ -1,5 +1,7 @@
 # Ugliest CSS
 
+Uglisest CSS is now live on the web, using github pages! [Check it out here!](http://krafalski.github.io/ugliestcss/)
+
 This is a repo for people to try out github, get familiar with working on a collaboration, and have fun with CSS.
 
 Fork this repo, then create your own CSS file, link it in the index.html, then merge it back and show off your CSS!
