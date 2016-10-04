@@ -14,8 +14,15 @@ For a sneakpeak of the index.html [go here.](https://github.com/Krafalski/uglies
 
 This project is brand new! I am looking for all kinds of contributions beyond css! Please feel free to create a github issue, work on a github issue, contribute to the readme and index.html, offer suggestions on how to make this project even better or anything else!
 
+Here is a great article  for absolute beginners and a couple invaluable cheat sheets:
+
+[Git - the simple guide](http://rogerdudler.github.io/git-guide/)
+[GitHub Cheat Sheet #1 "Blue"](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+[GitHub Cheat Sheet #2 "Green"](https://education.github.com/git-cheat-sheet-education.pdf)
+
 Have fun!
 
 Contributors:
 @Krafalski
 @Steerj
+@jotasprout
