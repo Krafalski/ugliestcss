@@ -17,7 +17,9 @@ This project is brand new! I am looking for all kinds of contributions beyond cs
 Here is a great article  for absolute beginners and a couple invaluable cheat sheets:
 
  [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
+ 
  [GitHub Cheat Sheet #1 "Blue"](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+ 
  [GitHub Cheat Sheet #2 "Green"](https://education.github.com/git-cheat-sheet-education.pdf)
 
 Have fun!
