@@ -1,0 +1,37 @@
+body {
+  background-color: green;
+  color: lime;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 75px;
+  color: YellowGreen;
+  font-family: "Courier New", Courier, monospace;
+}
+
+div {
+  border: 10px solid Chartreuse;
+}
+
+ol {
+  background-color: pink;
+}
+
+li {
+  margin: 0 40px;
+  color: ForestGreen;
+}
+
+a {
+  color: OliveDrab;
+}
+
+a:hover {
+  color: Fuchsia;
+}
+
+strong {
+  color: DeepPink;
+}
