@@ -4,7 +4,7 @@ Uglisest CSS is now live on the web, using github pages! [Check it out here!](ht
 
 This is a repo for people to try out github, get familiar with working on a collaboration, and have fun with CSS.
 
-Fork this repo, then create your own CSS file, link it in the index.html, then merge it back and show off your CSS!
+Fork or clone this repo, then create your own CSS file, link it in the index.html, then merge it back and show off your CSS!
 
 Getting started with github/this project:
 [Click here! This is a great resource to follow.](http://kbroman.org/github_tutorial/pages/fork.html)
@@ -16,9 +16,11 @@ This project is brand new! I am looking for all kinds of contributions beyond cs
 
 Here is a great article  for absolute beginners and a couple invaluable cheat sheets:
 
-[Git - the simple guide](http://rogerdudler.github.io/git-guide/)
-[GitHub Cheat Sheet #1 "Blue"](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
-[GitHub Cheat Sheet #2 "Green"](https://education.github.com/git-cheat-sheet-education.pdf)
+ [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
+ 
+ [GitHub Cheat Sheet #1 "Blue"](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+ 
+ [GitHub Cheat Sheet #2 "Green"](https://education.github.com/git-cheat-sheet-education.pdf)
 
 Have fun!
 
