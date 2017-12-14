@@ -1,37 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Kristi');
+
 body {
-  background-color: green;
-  color: lime;
-  font-family: Impact, Charcoal, sans-serif;
-  font-size: 12px;
+  background-image: url(https://i.imgur.com/nG1ang3.jpg);
+  background-repeat: repeat-y;
+  font-family: 'Kristi', cursive;
+  cursor: progress;
 }
 
 h1 {
-  font-size: 75px;
-  color: YellowGreen;
-  font-family: "Courier New", Courier, monospace;
+  font-size: 150px;
+  color: red;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 3s;
+  animation-name: colorshift1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
-div {
-  border: 10px solid Chartreuse;
+h3 {
+  font-size: 100px;
+  color: orange;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 6s;
+  animation-name: colorshift2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite
 }
 
-ol {
-  background-color: pink;
-}
-
-li {
-  margin: 0 40px;
-  color: ForestGreen;
+h4 {
+  font-size: 10px;
+  color: yellow;
 }
 
 a {
-  color: OliveDrab;
+  color: green;
+  text-decoration: none;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 1s;
+  animation-name: colorshift3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  cursor: progress;
 }
 
-a:hover {
-  color: Fuchsia;
+ol {
+  text-align: right;
 }
 
-strong {
-  color: DeepPink;
+li {
+  color: purple;
+}
+
+h1:hover, h3:hover, h4:hover, a:hover {
+  background-color: white;
+}
+
+@-webkit-keyframes colorshift1 {
+    from {color: red;}
+    to {olor: yellow;}
+}
+
+@keyframes colorshift1 {
+    from {color: red;}
+    to {color: yellow;}
+}
+
+@-webkit-keyframes colorshift2 {
+    from {color: orange;}
+    to {olor: magenta;}
+}
+
+@keyframes colorshift2 {
+    from {color: orange;}
+    to {color: magenta;}
+}
+
+@-webkit-keyframes colorshift2 {
+    from {color: green;}
+    to {olor: blue;}
+}
+
+@keyframes colorshift3 {
+    from {color: green;}
+    to {color: blue;}
 }
