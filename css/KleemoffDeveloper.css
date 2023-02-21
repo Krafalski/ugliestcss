@@ -1,0 +1,40 @@
+*
+{
+    padding: 5px 15px;
+}
+
+h1
+{
+    transform: rotate(-5deg);
+}
+
+h2
+{
+    transform: rotate(5deg);
+}
+
+h3
+{
+    transform: rotate(6deg);
+}
+
+h4
+{
+    transform: rotate(5deg);
+}
+
+li
+{
+    transform: rotate(75deg);
+}
+
+body
+{
+    background:radial-gradient(rgba(255, 0, 0, 0.41), rgba(79, 28, 0, 0.195), rgba(255, 0, 255, 0.106));
+}
+
+
+a
+{
+    color:rgb(51, 0, 255);
+}

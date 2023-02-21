@@ -8,7 +8,7 @@ function changeCSS (cssFile, cssLinkIndex){
   newLink.setAttribute("rel", "stylesheet");
   newLink.setAttribute("type", "text/css");
   newLink.setAttribute("href", "css/"+cssFile);
-  console.log(currentLink, newLink)
+  console.log(currentLink, newLink);
 
   document.getElementsByTagName("head").item(0).replaceChild(newLink, currentLink);
 
